@@ -19,7 +19,7 @@ from sklearn.preprocessing import MinMaxScaler
 # =================================================================================================
 # BAGIAN 1: SETUP (Diambil 100% dari kode asli Anda)
 # =================================================================================================
-url = "https://raw.githubusercontent.com/far1228/Dashboard-DM/refs/heads/main/file.csv"
+url = "https://raw.githubusercontent.com/far1228/Dashboard-DM/main/file.csv"
 df = pd.read_csv(url)
 
 st.set_page_config(page_title="Customer Segmentation Dashboard", layout="wide", initial_sidebar_state="expanded")
